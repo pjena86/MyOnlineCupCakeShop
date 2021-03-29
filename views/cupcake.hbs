@@ -1,0 +1,53 @@
+<div class="row">
+    <div class="col-md-12">
+        <br>
+        <h2>{{viewData.cupcake.cupcakeName}}</h2>
+        <hr />
+        <form method="post" action="/cupcake/update">
+            <fieldset>
+                <legend>Cupcake Details</legend>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="cupcakeId">Code:</label>
+                            <input class="form-control" id="cupcakeId" name="cupcakeId" type="number"
+                                value="{{viewData.cupcakes.cupcakeId}}" />
+                               
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="cupcakeName">Cupcake Name:</label>
+                            <input class="form-control" id="cupcakeName" name="cupcakeName" type="text"
+                                value="{{viewData.cupcakes.cupcakeName}}" />
+                        </div>
+                    </div>
+                    
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="cupcakePrice">Price:</label>
+                                        <input class="form-control" id="cupcakePrice" name="cupcakePrice" type="text"  value="{{viewData.cupcakes.cupcakePrice}}"/>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="creationDate">Date of Creation:</label>
+                                        <input class="form-control" type="date" id="birthday" name="birthday" name ="creationDate"  value="{{viewData.cupcakes.creationDate}}" readonly />
+                                      
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label for="lastModifiedDate">Date Last Modified:</label>
+                                        <input class="form-control" type="date" id="birthday" name="birthday" name ="lastModifiedDate"  value="{{viewData.cupcakes.lastModifiedDate}}" />
+                                    </div>
+                                </div>
+                                
+            </fieldset>
+            <hr />
+            <input type="submit" class="btn btn-primary float-right" value="Edit" /><br /><br /><br />
+        </form>
+    </div>
+</div>

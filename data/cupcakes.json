@@ -1,0 +1,38 @@
+[
+    {
+      "cupcakeId": 1,
+        "cupcakeName": "Chocolate Bourbon",
+        "cupcakePrice": 2.00,
+        "creationDate": "01/19/2021",
+        "lastModifiedDate": "01/19/2021"
+      },
+    {
+      "cupcakeId": 2,
+      "cupcakeName": "Vanilla",
+      "cupcakePrice": 2.50,
+      "creationDate": "01/20/2021",
+      "lastModifiedDate": "01/20/2021"
+    },
+    {
+      "cupcakeId": 3,
+        "cupcakeName": "Apple Pie Cupcakes",
+        "cupcakePrice": 2.00,
+        "creationDate": "01/20/2021",
+        "lastModifiedDate": "01/20/2021"
+      },
+      {
+        "cupcakeId": 4,
+        "cupcakeName": "Triple Salted Caramel",
+        "cupcakePrice": 3.50,
+        "creationDate": "01/19/2021",
+        "lastModifiedDate": "01/19/2021"
+      },
+      {
+        "cupcakeId": 5,
+        "cupcakeName": "Sprinkles of Strawberries",
+        "cupcakePrice": 3.00,
+        "creationDate": "01/19/2021",
+        "lastModifiedDate": "01/19/2021"
+      }
+      
+  ]

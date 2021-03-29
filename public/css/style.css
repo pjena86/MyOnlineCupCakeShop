@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* Navigation Bar bg-light */
+.bg-light{
+background-image: linear-gradient(#11795b,white);
+box-shadow: 10px 10px grey;
+}
+  
+/* change the navigation bar link color */
+.navbar .navbar-nav .nav-link {
+color: #a55a77;
+font-family: 'Lobster', cursive;
+}
+/* change the color hovered links */
+.navbar .nav-item:hover .nav-link {
+color: #f800d7;
+}
+
+/* Full page gradient, Solid background colour, Image (consider using "cover"  */
+body,html {
+background: linear-gradient( to bottom,rgb(6, 81, 110), white); 
+/* background-image */
+background-image: url("https://ichef.bbci.co.uk/food/ic/food_16x9_1600/recipes/cupcakes_93722_16x9.jpg"); 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+ background-size: cover;
+background-repeat: no-repeat;
+background-size: cover; 
+width: 100%;
+height: 100%;
+overflow: auto;
+font-family: 'Josefin Slab', serif;
+font-size: large;
+}
+
+/*Primary Button */
+.btn-primary {
+color: black;
+background-color:rgb(0, 195, 255);
+border: solid rgb(102, 0, 128) 2px;
+padding: 5px 5px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+}
+
+/* Button Gradient Background */
+/*Box shadow (outline or inset)*/
+.btn-primary {
+box-shadow: 0 10px 16px 0 rgb(221, 211, 211), 0 6px 20px 0 rgba(235, 61, 221, 0.932);
+}
+  
+/* Button Hover*/
+.btn-primary:hover {
+color: #fff;
+background-color: #df204b;
+border-color: #2d2074;
+}
+/* All "Heading" elements */
+h2 {
+font-family: 'Lobster', cursive;
+font-size: xx-large;
+font-style: oblique;
+text-align: center;
+color:white;
+text-shadow: 2px 2px rgb(195, 0, 255)
+} 
+/* Paragraph */
+p{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size:x-large;
+}
+
+.p.href{
+
+}
+
+/* Table */
+table {
+border-collapse: collapse;
+border-spacing: 0;
+width: 100%;
+border: 1px solid rgb(17, 0, 116);
+}
+
+th, td {
+text-align: left;
+padding: 16px;
+background-color: #1a6272
+}
+  
+td:nth-child(odd) {
+background-color: #1a6272
+}
+  
+
+td:nth-child(even) {
+  background-color: #a5bbc0
+}
+
+/*Links*/
+a:hover {
+color: hotpink; 
+}
+  
+body {
+color: rgb(0, 0, 7);
+}
+
+
+fieldset{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 2em;
+text-shadow: 1px 1px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 1px 2px;
+ -moz-box-align:baseline;
+
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+ 
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  border-radius: 50%;
+}

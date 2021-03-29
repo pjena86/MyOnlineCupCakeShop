@@ -1,0 +1,35 @@
+<div class="row">
+ <div class="col-md-12">
+ <br>
+ <h2>Cupcakes</h2>
+ <a href="/cupcakes/add" class="btn btn-success float-right">Add to Inventory</a>
+ <hr />
+<div class="table-responsive">
+  <table class="table">
+<tr>
+        <th>Code </th>
+        <th>Cupcake Name</th>
+        <th>Price</th>
+        <th>Date of Creation</th>
+        <th>Date last Modified</th>
+       </tr>
+    {{#each cupcakes}}
+        <tr>
+            <td>{{cupcakeId}}</td>
+            <td><a href="/cupcake/{{cupcakeName}}">{{cupcakeName}}</a></td>
+            <td>{{cupcakePrice}}</td>
+            <td>{{creationDate}}</td>
+            <td>{{lastModifiedDate}}</td>
+        </tr>
+          {{else}}
+            <tr>
+                <td colspan="4">No Data</td>
+            </tr>
+        {{/each}}
+</table>
+</div>
+{{#unless cupcakes}}
+    <div class="col-md-12 text-center">
+ <strong>{{message}}</strong>
+</div>  
+{{/unless}}
